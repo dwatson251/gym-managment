@@ -6,7 +6,7 @@
     $password = 'admin123';
 
     if(isset($_POST['username'] && $_POST['password'])) {
-        if($_POST['username'] === $username && $_POST['password'] === $password)) {
+        if($_POST['username'] === $username && $_POST['password'] === $password) {
             $loggedin = true;
         }
     }
